@@ -1,0 +1,7 @@
+.active {
+  color: lightgreen;
+}
+
+.linl {
+  transition: color 0.3s ease-in;
+}

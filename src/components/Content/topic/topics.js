@@ -4,7 +4,6 @@ import Topic from "./topic";
 
 const Topics = () => {
   let match = useRouteMatch();
-  console.log(match);
 
   return (
     <div>

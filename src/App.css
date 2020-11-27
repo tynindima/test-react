@@ -1,3 +1,24 @@
 .App {
   box-sizing: border-box;
 }
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: content;
+}
+
+.web {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header"
+    "sidebar content";
+}

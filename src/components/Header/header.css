@@ -1,0 +1,15 @@
+.header {
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-item {
+  list-style: none;
+  margin-left: 15px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: rgb(196, 152, 152);
+  cursor: pointer;
+}
